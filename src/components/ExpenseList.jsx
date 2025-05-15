@@ -5,7 +5,6 @@ import { selectExpenses } from "../features/expenseSlice";
 
 const ExpenseList = () => {
   const expenses = useSelector(selectExpenses);
-  console.log("expenses->", expenses);
 
   return (
     <Card className="mb-4">
